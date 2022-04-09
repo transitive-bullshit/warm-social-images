@@ -1,6 +1,6 @@
 {
   "name": "warm-social-images",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "type": "module",
   "description": "Simple CLI to warm the cache of social images in all pages from a sitemap.",
   "repository": "transitive-bullshit/warm-social-images",
