@@ -1,8 +1,8 @@
-# warm-sitemap-cache
+# warm-social-images
 
 > Simple CLI to warm the cache of social images in all pages from a sitemap.
 
-[![NPM](https://img.shields.io/npm/v/warm-sitemap-cache.svg)](https://www.npmjs.com/package/warm-sitemap-cache) [![Build Status](https://github.com/transitive-bullshit/warm-sitemap-cache/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/warm-sitemap-cache/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
+[![NPM](https://img.shields.io/npm/v/warm-social-images.svg)](https://www.npmjs.com/package/warm-social-images) [![Build Status](https://github.com/transitive-bullshit/warm-social-images/actions/workflows/test.yml/badge.svg)](https://github.com/transitive-bullshit/warm-social-images/actions/workflows/test.yml) [![Prettier Code Formatting](https://img.shields.io/badge/code_style-prettier-brightgreen.svg)](https://prettier.io)
 
 ## Why
 
@@ -34,7 +34,7 @@ Options:
 ## Example
 
 ```
-npx warm-sitemap-cache https://transitivebullsh.it/sitemap.xml
+npx warm-social-images https://transitivebullsh.it/sitemap.xml
 ```
 
 which outputs:
