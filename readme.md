@@ -6,9 +6,9 @@
 
 ## Why
 
-Using serverless functions to generate images for social media is a common approach.
+Using serverless functions to generate images for social media is pretty common.
 
-If you're caching them with a CDN like Vercel, Cloudflare, or Cloudfront, then they will resolve quickly after the first GET.
+If you're caching them with a CDN like Vercel or Cloudflare, then they will resolve quickly after the first GET.
 
 But after fresh deploys, all of these social images will resolve very slowly, which may impact how your site is viewed on social media.
 

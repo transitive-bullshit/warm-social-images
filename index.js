@@ -42,10 +42,12 @@ export async function warmSocialImages(
     urls,
     async (targetUrl, index) => {
       try {
+        // fetch the current page and extract its social image
         const { body: html, url } = await got(targetUrl)
         const metadata = await metaImageScraper({ html, url })
 
         if (metadata.image) {
+          // fetch the social image and make sure it resolves
           const res = await got(metadata.image)
           const length = res.rawBody.byteLength
           const bytes = prettyBytes(length)
