@@ -49,10 +49,10 @@ export async function warmSocialImages(
         if (metadata.image) {
           // fetch the social image and make sure it resolves
           const res = await got(metadata.image)
-          const length = res.rawBody.byteLength
-          const bytes = prettyBytes(length)
 
           if (!silent) {
+            const length = res.rawBody.byteLength
+            const bytes = prettyBytes(length)
             console.log(`${index}: ${bytes} ${metadata.image}`)
           }
 
