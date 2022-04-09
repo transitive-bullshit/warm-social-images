@@ -6,7 +6,7 @@
   "repository": "transitive-bullshit/warm-social-images",
   "author": "Travis Fischer <travis@transitivebullsh.it>",
   "license": "MIT",
-  "cli": "cli.js",
+  "bin": "cli.js",
   "main": "index.js",
   "sideEffects": false,
   "engines": {
