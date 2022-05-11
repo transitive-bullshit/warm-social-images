@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 import { readFile } from 'fs/promises'
 import { cac } from 'cac'
 import { warmSocialImages } from './index.js'
